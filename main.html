@@ -22,16 +22,20 @@
 	  <option value="BMW ">BMW</option>
 	  <option value="Lambergani">Lambergani</option>
 	  <option value="Porshe">Porshe</option>
-	 </select><br>
+	 </select><br><br>
+
+		<form action="/action_page.php" method = "post">
+			
+		<label for="gender">Gender</label><br>
+			
+		<input type="radio" id="gender_m" name="gender" value="gender_m">
+		<label for="gender_m">Male</label><br>
+		<input type="radio" id="gender_f" name="gender" value="Female">
+		<label for="gender_f">Female</label><br>
+		</form>
+
+
 		
-	<label for="gender">Gender</label><br>
-
-	<label for="gender_m">Male</label><br>
-	<input type="Radio" id="gender_m" name="gender_m" value= "gender" required= "Yes"><br>
-	<label for="gender_f">Female</label><br>
-	<input type="Radio" id="gender_f" name="gender_f" value= "gender" required= "Yes"><br>
-
-
 
 		
 	<label id = "age" for="age">Age</label><br>
@@ -49,9 +53,9 @@
 	<label id = "tos" for="tos">I agree to the TOS</label><br>
 	<input type="Checkbox" id="tos" name="tos" required= "Yes"><br>
 
-		<input type="Submit" value="Submit">
+	<input type="Submit" value="Submit">
 	</form>
-	
+
 	
     <script type="text/javascript" src="./script.js">
 </script>
